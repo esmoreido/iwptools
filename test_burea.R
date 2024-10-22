@@ -1,0 +1,10 @@
+library(tidyverse)
+library(plotly)
+library(ggridges)
+library(sf)
+library(tmap)
+source('main.R')
+
+con215 <- dbcon215('sa', '1qazXSW@')
+dbListTables(con)
+dbListFields(con, '****')
